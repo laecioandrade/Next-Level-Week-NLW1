@@ -5,6 +5,7 @@ import {Map, TileLayer, Marker} from 'react-leaflet';
 import api from '../../services/api';
 import axios from 'axios';
 import {LeafletMouseEvent} from 'leaflet';
+import Dropzone from '../../components/dropzone';
 
 
 import './styles.css';
@@ -32,10 +33,9 @@ const CreatePoint = () => {
     const [selectedUf, setSelectedUf] = useState('0');
     const [selectedCity, setSelectedCity] = useState('0');
     const [selectedItems, setSelectedItems] = useState<number[]>([]);
-
     const [selectedPosition, setSelectedPosition] = useState<[number, number]>([0, 0]);
-
     const [initialPosition, setInitialPosition] = useState<[number, number]>([0, 0]);
+    const [selectedFile, setSelectedFile] = useState<File>();
 
     const [formData, setFormData] = useState({
         name: '',
@@ -146,6 +146,8 @@ const CreatePoint = () => {
             </header>
             <form onSubmit={handleSubmit}>
                 <h1>Cadastro do <br/> ponto de coleta</h1>
+
+                <Dropzone onFileUpLoaded={setSelectedFile}/>
 
                 <fieldset>
                     <legend>
