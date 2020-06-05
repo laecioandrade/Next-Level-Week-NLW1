@@ -40,4 +40,4 @@
 - expo start
 ```
 ##### 2. Screens:
-[App.pdf](https://github.com/laecioandrade/Next-Level-Week-NLW1/files/4738272/App.pdf)
+![app](https://user-images.githubusercontent.com/37408950/83918585-737c4380-a74f-11ea-95be-c2fb3410338d.png)
