@@ -1,6 +1,7 @@
 # Next Level Week - NLW1👨‍💻🚀
 
 ##### Final Application Result: Ecoleta
+##### Application for creating and viewing waste collection points.
 
 # Front-end :computer::
 ##### Developed with [React](https://pt-br.reactjs.org/)
