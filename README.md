@@ -3,6 +3,8 @@
 ##### Final Application Result: Ecoleta
 ##### Application for creating and viewing waste collection points.
 
+![capa-ecoleta](https://user-images.githubusercontent.com/37408950/83917627-9e659800-a74d-11ea-982d-695df729f3e3.png)
+
 # Front-end :computer::
 ##### Developed with [React](https://pt-br.reactjs.org/)
 
